@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: blue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    color: #fff;
+    padding: 20px 18px;
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: #142d4c;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,70%),rgba(0,0,0,70%)),url(lake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.text{
+    color: #fff;
+}
+.text h1{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text h4{
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+}
+.btn  button{
+    margin-top: 20px;
+    padding: 12px 22px;
+    background-color: blue;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+}
